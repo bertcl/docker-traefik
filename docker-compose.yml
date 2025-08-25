@@ -30,4 +30,4 @@ services:
 networks:
   default:
     external:
-      name: frontend
+      name: ${NETWORK}
